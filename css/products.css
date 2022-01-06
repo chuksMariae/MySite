@@ -1,0 +1,18 @@
+.goods {
+    width: 50px;
+    height: 50px;
+}
+
+section {
+    /* width: 5em; */
+    /* height: 100%; */
+    /* position: absolute; */
+    white-space: pre-line;
+    width: calc(100% - 18px);
+    /* border-radius: calc(50% - 2.5px); */
+    transform:
+        rotateX(90deg),
+        translateZ(1em);
+    background-color: #7707;
+    /* perspective: 150px; */
+}

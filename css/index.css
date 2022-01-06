@@ -1,0 +1,23 @@
+
+body {
+    font: 18px Helvetical sans-serif;
+    /* perspective: 300px; */
+}
+
+header {
+    font: 16.5px Helvetical sans-serif;
+}
+
+section {
+    /* width: 5em; */
+    /* height: 100%; */
+    /* position: absolute; */
+    /* white-space: pre-line; */
+    width: calc(100% - 0px);
+    /* border-radius: calc(50% - 2.5px); */
+    transform:
+        rotateX(90deg),
+        translateZ(1em);
+    background-color: #3337;
+    /* perspective: 150px; */
+}
